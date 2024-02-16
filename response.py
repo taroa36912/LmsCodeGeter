@@ -1,6 +1,6 @@
-from flask import Flask, request, Response
+#from flask import Flask, request, Response
 
-app = Flask(__name__)
+#app = Flask(__name__)
 
 
 @app.route('/webhook', methods=['GET'])
@@ -15,5 +15,5 @@ def verify():
 
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+#if __name__ == '__main__':
+   #app.run(debug=True)
