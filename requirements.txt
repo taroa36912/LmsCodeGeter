@@ -1,1 +1,4 @@
-pywin32
+pywin32==302
+flask==2.0.1
+pyngrok==5.2.0
+requests==2.26.0
